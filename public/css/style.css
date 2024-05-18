@@ -1,0 +1,130 @@
+body{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    flex: 1;
+}
+
+h3{
+    padding: 0.5rem 0rem;
+}
+
+.navbar{
+    height: 4.5rem;
+    background-color: white;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.fa-compass{
+    color: red;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: black !important;
+    font-size: 17px !important;
+}
+
+.container-fluid{
+    padding: 0px 2rem !important;
+}
+
+.f-info{
+    height: 7rem;
+    background-color: rgba(128, 128, 128, 0.411);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-social, .f-links, .f-brands{
+    width: 100%;
+    text-align: center;
+    /* font-size: 1.3rem; */
+}
+
+.f-social{
+    font-size: 1.3rem;
+}
+
+.f-social i{
+    margin-right: 0.4rem;
+}
+
+.f-links a{
+    text-decoration: none;
+    color: black;
+}
+
+/* cards */
+
+.listing-card{
+    padding: 0px !important;
+    border: 0px !important;
+    margin: 1rem;
+}
+
+.card-img-top{
+    width: 100%;
+    border-radius: 1rem !important;
+    object-fit: cover !important;
+    cursor: pointer;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text{
+    font-weight: 400;
+}
+
+.a-cards{
+    text-decoration: none;
+    color: black;
+}
+
+/* new add and edit  */
+
+.add-btn{
+    background-color: red !important;
+    border: 0px !important;
+}
+
+/* show  */
+
+.show-img{
+    height: 30vh;
+}
+
+.buttons{
+    display: flex;
+}
+
+.f-button{
+    margin-left: 2rem !important;
+}
+
+#map { 
+    height: 400px;
+    width: 50vw;
+}
+
+.logininfo{
+    width: 45%;
+    margin-top: 6rem !important;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    /* border: 1px solid black; */
+}
+
+.logininfo:hover{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.7);
+    transition: 0.2s;
+}
